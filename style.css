@@ -16,23 +16,26 @@ body {
   width: 100%;
   background: rgba(120,120,120, 0.2)
   border: solid 1px #f1f1f1;
+  text-align: center;
 }
 
 .nav-list {
   display: flex;
-  margin: 0
+  margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 .nav-list__item {
   margin: 1rem 0.5rem;
+  text-align: center;
   text-transform: uppercase;
 }
 
 .nav-list__item--brand {
   flex: 1;
-
+  text-align: center;
   font-weight: bold;
 }
 
@@ -44,7 +47,7 @@ body {
   height: 100vh;
   text-align: center;
 
-  background: <img src="http://www.developerdev.com/images/placeholders/1920x1200-3.jpg" /> no-repeat center center fixed;
+  background: url("http://www.developerdev.com/images/placeholders/1920x1200-3.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -56,7 +59,7 @@ body {
 
 .hero__container {
   max-width: 60rem;
-
+}
 
 .hero__title {
   font-size: 5rem;
@@ -91,12 +94,12 @@ body {
   border-bottom-width: 0.5rem;
   border-bottom-style: solid;
   border-bottom-color: #00a5bb;
-  wide: 10rem;
+  width: 10rem;
   margin: auto;
 }
 
-#bg-photo {
-  background: url('http://i.imgur.com/PNpGUvq.jpg?1') no-repeat center center;
+.bg-photo {
+  background: url(http://i.imgur.com/PNpGUvq.jpg?1) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
