@@ -44,7 +44,7 @@ body {
   height: 100vh;
   text-align: center;
 
-  background: url('http://www.developerdev.com/images/placeholders/1920x1200-3.jpg') no-repeat center center fixed;
+  background: <img src="http://www.developerdev.com/images/placeholders/1920x1200-3.jpg" /> no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
